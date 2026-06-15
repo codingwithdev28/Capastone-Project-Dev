@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-15T08:49:46 IST" name="Guru99 Suite" finished-at="2026-06-15T08:51:04 IST" duration-ms="78141">
+    <groups>
+    </groups>
+    <test started-at="2026-06-15T08:49:46 IST" name="Guru99 Tests" finished-at="2026-06-15T08:51:04 IST" duration-ms="78141">
+      <class name="testcases.AccountTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AccountTest@495fac5f]" started-at="2026-06-15T08:50:21 IST" name="setup" finished-at="2026-06-15T08:50:24 IST" duration-ms="3759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNewAccount()[pri:3, instance:testcases.AccountTest@495fac5f]" started-at="2026-06-15T08:50:24 IST" name="createNewAccount" description="CREATE ACCOUNT" finished-at="2026-06-15T08:50:32 IST" duration-ms="7284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.AccountTest@495fac5f]" started-at="2026-06-15T08:50:32 IST" name="closeBrowser" finished-at="2026-06-15T08:50:32 IST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.AccountTest -->
+      <class name="testcases.WithdrawalTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.WithdrawalTest@79d94571]" started-at="2026-06-15T08:50:54 IST" name="setup" finished-at="2026-06-15T08:50:57 IST" duration-ms="2459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWithdrawal()[pri:6, instance:testcases.WithdrawalTest@79d94571]" started-at="2026-06-15T08:50:57 IST" name="verifyWithdrawal" description="VERIFY WITHDRAWAL" finished-at="2026-06-15T08:51:03 IST" duration-ms="6264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithdrawal -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.WithdrawalTest@79d94571]" started-at="2026-06-15T08:51:03 IST" name="closeBrowser" finished-at="2026-06-15T08:51:04 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.WithdrawalTest -->
+      <class name="testcases.FundTransferTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.FundTransferTest@635572a7]" started-at="2026-06-15T08:50:43 IST" name="setup" finished-at="2026-06-15T08:50:47 IST" duration-ms="4313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFundTransfer()[pri:5, instance:testcases.FundTransferTest@635572a7]" started-at="2026-06-15T08:50:47 IST" name="verifyFundTransfer" description="VERIFY FUND TRANSFER" finished-at="2026-06-15T08:50:54 IST" duration-ms="6636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFundTransfer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.FundTransferTest@635572a7]" started-at="2026-06-15T08:50:54 IST" name="closeBrowser" finished-at="2026-06-15T08:50:54 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.FundTransferTest -->
+      <class name="testcases.CustomerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CustomerTest@6bbe2511]" started-at="2026-06-15T08:50:02 IST" name="setup" finished-at="2026-06-15T08:50:05 IST" duration-ms="3776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddNewCustomer()[pri:2, instance:testcases.CustomerTest@6bbe2511]" started-at="2026-06-15T08:50:05 IST" name="AddNewCustomer" description="CREATE CUSTOMER" finished-at="2026-06-15T08:50:19 IST" duration-ms="13947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewCustomer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.CustomerTest@6bbe2511]" started-at="2026-06-15T08:50:19 IST" name="closeBrowser" finished-at="2026-06-15T08:50:21 IST" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.CustomerTest -->
+      <class name="testcases.DepositTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.DepositTest@76012793]" started-at="2026-06-15T08:50:32 IST" name="setup" finished-at="2026-06-15T08:50:37 IST" duration-ms="4473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDeposit()[pri:4, instance:testcases.DepositTest@76012793]" started-at="2026-06-15T08:50:37 IST" name="verifyDeposit" description="VERIFY DEPOSIT" finished-at="2026-06-15T08:50:42 IST" duration-ms="4882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeposit -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.DepositTest@76012793]" started-at="2026-06-15T08:50:42 IST" name="closeBrowser" finished-at="2026-06-15T08:50:43 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.DepositTest -->
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@79c7532f]" started-at="2026-06-15T08:49:46 IST" name="setup" finished-at="2026-06-15T08:49:57 IST" duration-ms="11231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyValidLogin()[pri:0, instance:testcases.LoginTest@79c7532f]" started-at="2026-06-15T08:49:57 IST" name="verifyValidLogin" finished-at="2026-06-15T08:50:01 IST" duration-ms="3269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.LoginTest@79c7532f]" started-at="2026-06-15T08:50:01 IST" name="closeBrowser" finished-at="2026-06-15T08:50:02 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Guru99 Tests -->
+  </suite> <!-- Guru99 Suite -->
+</testng-results>

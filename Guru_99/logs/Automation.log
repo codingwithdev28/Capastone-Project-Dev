@@ -1,0 +1,120 @@
+2026-06-15 08:10:50 [main] INFO  listeners.TestListener - Execution Started
+2026-06-15 08:11:11 [main] INFO  listeners.TestListener - Test Passed : verifyValidLogin
+2026-06-15 08:11:44 [main] ERROR listeners.TestListener - Test Failed : AddNewCustomer
+2026-06-15 08:11:44 [main] ERROR listeners.TestListener - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //td[text()='Customer ID']/following-sibling::td, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='Customer ID']/following-sibling::td"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59152}, goog:processID: 29088, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59152/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6589db3645d3fdd20d984b0819df186f
+2026-06-15 08:11:51 [main] ERROR listeners.TestListener - Test Failed : createNewAccount
+2026-06-15 08:11:51 [main] ERROR listeners.TestListener - java.lang.RuntimeException: Customer ID not found. Run CustomerTest first.
+2026-06-15 08:11:58 [main] ERROR listeners.TestListener - Test Failed : verifyDeposit
+2026-06-15 08:11:58 [main] ERROR listeners.TestListener - java.lang.RuntimeException: Account ID is null. Run AccountTest first.
+2026-06-15 08:12:09 [main] ERROR listeners.TestListener - Test Failed : verifyWithdrawal
+2026-06-15 08:12:09 [main] ERROR listeners.TestListener - java.lang.RuntimeException: Account ID is null. Run AccountTest first.
+2026-06-15 08:12:15 [main] ERROR listeners.TestListener - Test Failed : verifyFundTransfer
+2026-06-15 08:12:15 [main] ERROR listeners.TestListener - java.lang.RuntimeException: Account ID is null. Run AccountTest first.
+2026-06-15 08:12:16 [main] INFO  listeners.TestListener - Execution Completed
+2026-06-15 08:14:04 [main] INFO  listeners.TestListener - Execution Started
+2026-06-15 08:14:14 [main] INFO  listeners.TestListener - Test Passed : verifyValidLogin
+2026-06-15 08:14:45 [main] ERROR listeners.TestListener - Test Failed : AddNewCustomer
+2026-06-15 08:14:45 [main] ERROR listeners.TestListener - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //td[text()='Customer ID']/following-sibling::td, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='Customer ID']/following-sibling::td"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49900}, goog:processID: 21204, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49900/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 295fbee23d5bbb18a08390144ff6d9a5
+2026-06-15 08:14:50 [main] INFO  listeners.TestListener - Execution Completed
+2026-06-15 08:20:07 [main] INFO  listeners.TestListener - Execution Started
+2026-06-15 08:20:19 [main] INFO  listeners.TestListener - Test Passed : verifyValidLogin
+2026-06-15 08:20:41 [main] ERROR listeners.TestListener - Test Failed : AddNewCustomer
+2026-06-15 08:20:41 [main] ERROR listeners.TestListener - org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=149.0.7827.104)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbc3d40f3c2025ea584cf2e2ae6c04ed, findElement {using=xpath, value=//td[text()='Customer ID']/following-sibling::td}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52767}, goog:processID: 1976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52767/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbc3d40f3c2025ea584cf2e2ae6c04ed
+2026-06-15 08:20:42 [main] INFO  listeners.TestListener - Execution Completed
+2026-06-15 08:25:06 [main] INFO  listeners.TestListener - Execution Started
+2026-06-15 08:25:21 [main] INFO  listeners.TestListener - Test Passed : verifyValidLogin
+2026-06-15 08:25:47 [main] INFO  listeners.TestListener - Test Passed : AddNewCustomer
+2026-06-15 08:25:59 [main] INFO  listeners.TestListener - Test Passed : createNewAccount
+2026-06-15 08:26:10 [main] INFO  listeners.TestListener - Test Passed : verifyDeposit
+2026-06-15 08:26:20 [main] INFO  listeners.TestListener - Test Passed : verifyWithdrawal
+2026-06-15 08:26:29 [main] ERROR listeners.TestListener - Test Failed : verifyFundTransfer
+2026-06-15 08:26:29 [main] ERROR listeners.TestListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="FundTransInput.php">...</a> is not clickable at point (120, 658). Other element would receive the click: <span style="color:#fff;">...</span>
+  (Session info: chrome=149.0.7827.104)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bcd621f1427112ac380fd0d90d6865fe, clickElement {id=f.DA1865AA0EF1E77D608B6C1EFCF3D19E.d.07E3235C2CD23E615D62F6B13C92F4FC.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52861}, goog:processID: 6384, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52861/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bcd621f1427112ac380fd0d90d6865fe)] -> xpath: //a[normalize-space()='Fund Transfer']]
+Session ID: bcd621f1427112ac380fd0d90d6865fe
+2026-06-15 08:26:30 [main] INFO  listeners.TestListener - Execution Completed
+2026-06-15 08:33:20 [main] INFO  listeners.TestListener - Execution Started
+2026-06-15 08:33:30 [main] INFO  listeners.TestListener - Test Passed : verifyValidLogin
+2026-06-15 08:33:49 [main] INFO  listeners.TestListener - Test Passed : AddNewCustomer
+2026-06-15 08:34:02 [main] INFO  listeners.TestListener - Test Passed : createNewAccount
+2026-06-15 08:34:15 [main] INFO  listeners.TestListener - Test Passed : verifyDeposit
+2026-06-15 08:34:24 [main] ERROR listeners.TestListener - Test Failed : verifyFundTransfer
+2026-06-15 08:34:24 [main] ERROR listeners.TestListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="FundTransInput.php">...</a> is not clickable at point (120, 658). Other element would receive the click: <span style="color:#fff;">...</span>
+  (Session info: chrome=149.0.7827.104)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15e8f1d7b3bd18975a53394240266072, clickElement {id=f.DC223523C61291CD488F720C90A4B1F3.d.6F10CDFD05E4E3B57C9E9ABAB66433C4.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49755}, goog:processID: 11532, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49755/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (15e8f1d7b3bd18975a53394240266072)] -> xpath: //a[normalize-space()='Fund Transfer']]
+Session ID: 15e8f1d7b3bd18975a53394240266072
+2026-06-15 08:34:35 [main] INFO  listeners.TestListener - Test Passed : verifyWithdrawal
+2026-06-15 08:34:37 [main] INFO  listeners.TestListener - Execution Completed
+2026-06-15 08:37:53 [main] INFO  listeners.TestListener - Execution Started
+2026-06-15 08:38:08 [main] INFO  listeners.TestListener - Test Passed : verifyValidLogin
+2026-06-15 08:38:32 [main] INFO  listeners.TestListener - Test Passed : AddNewCustomer
+2026-06-15 08:38:44 [main] INFO  listeners.TestListener - Test Passed : createNewAccount
+2026-06-15 08:38:56 [main] INFO  listeners.TestListener - Test Passed : verifyDeposit
+2026-06-15 08:39:06 [main] ERROR listeners.TestListener - Test Failed : verifyFundTransfer
+2026-06-15 08:39:06 [main] ERROR listeners.TestListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="FundTransInput.php">...</a> is not clickable at point (120, 428). Other element would receive the click: <p class="barone" style="font-size:16px;font-weight:700;padding: 10px;background-color:#525252;margin-top:100px;">...</p>
+  (Session info: chrome=149.0.7827.104)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bf1d8d557d4ade62ae5e6d8cbc8ff792, clickElement {id=f.08EC7345EF7679676F1FF23150232CE5.d.C5664387D5FADAB4057583F4C64BB67C.e.43}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58877}, goog:processID: 3868, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58877/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bf1d8d557d4ade62ae5e6d8cbc8ff792)] -> xpath: //a[normalize-space()='Fund Transfer']]
+Session ID: bf1d8d557d4ade62ae5e6d8cbc8ff792
+2026-06-15 08:39:18 [main] INFO  listeners.TestListener - Test Passed : verifyWithdrawal
+2026-06-15 08:39:21 [main] INFO  listeners.TestListener - Execution Completed
+2026-06-15 08:41:57 [main] INFO  listeners.TestListener - Execution Started
+2026-06-15 08:42:11 [main] INFO  listeners.TestListener - Test Passed : verifyValidLogin
+2026-06-15 08:42:31 [main] INFO  listeners.TestListener - Test Passed : AddNewCustomer
+2026-06-15 08:42:46 [main] INFO  listeners.TestListener - Test Passed : createNewAccount
+2026-06-15 08:42:59 [main] INFO  listeners.TestListener - Test Passed : verifyDeposit
+2026-06-15 08:43:09 [main] ERROR listeners.TestListener - Test Failed : verifyFundTransfer
+2026-06-15 08:43:09 [main] ERROR listeners.TestListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=149.0.7827.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49b08c64fdc5ee87a60c43c1e432b531, clickElement {id=f.DE83679F00C03457290DBEC55DE1D01F.d.892411BF70DD47A7B3EFCC2A21169DA3.e.43}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.104, chrome: {chromedriverVersion: 149.0.7827.115 (daf70f9ddee..., userDataDir: C:\Users\PC\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58591}, goog:processID: 20760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58591/devtoo..., se:cdpVersion: 149.0.7827.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (49b08c64fdc5ee87a60c43c1e432b531)] -> xpath: //a[normalize-space()='Fund Transfer']]
+Session ID: 49b08c64fdc5ee87a60c43c1e432b531
+2026-06-15 08:43:19 [main] INFO  listeners.TestListener - Test Passed : verifyWithdrawal
+2026-06-15 08:43:21 [main] INFO  listeners.TestListener - Execution Completed
+2026-06-15 08:49:46 [main] INFO  listeners.TestListener - Execution Started
+2026-06-15 08:50:01 [main] INFO  listeners.TestListener - Test Passed : verifyValidLogin
+2026-06-15 08:50:19 [main] INFO  listeners.TestListener - Test Passed : AddNewCustomer
+2026-06-15 08:50:32 [main] INFO  listeners.TestListener - Test Passed : createNewAccount
+2026-06-15 08:50:42 [main] INFO  listeners.TestListener - Test Passed : verifyDeposit
+2026-06-15 08:50:54 [main] INFO  listeners.TestListener - Test Passed : verifyFundTransfer
+2026-06-15 08:51:03 [main] INFO  listeners.TestListener - Test Passed : verifyWithdrawal
+2026-06-15 08:51:04 [main] INFO  listeners.TestListener - Execution Completed

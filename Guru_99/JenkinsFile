@@ -1,0 +1,79 @@
+pipeline {
+    agent any
+
+    tools {
+        jdk 'JDK'
+        maven 'Maven3'
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                url: 'https://github.com/codingwithdev28/Capastone-Project-Dev.git'
+            }
+        }
+
+        stage('Verify Workspace') {
+            steps {
+                bat 'dir'
+                bat 'dir /s'
+            }
+        }
+	stage('Compile') {
+            steps {
+				dir('Guru_99'){
+                bat 'mvn compile'
+            }
+        }
+        }
+        stage('Build and Test') {
+            steps {
+                dir('Guru_99') {
+                    bat 'mvn clean'
+                }
+            }
+        }
+ 
+        stage('Test') {
+            steps {
+				dir('Guru_99'){
+                bat 'mvn test'
+            }
+        }
+        }
+ 
+        
+
+        stage('Package') {
+            steps {
+                dir('Guru_99') {
+                    bat 'mvn package -DskipTests'
+                }
+            }
+        }
+
+        stage('Docker Build') {
+            steps {
+                dir('Guru_99') {
+                    bat 'docker build -t testng-framework .'
+                }
+            }
+        }
+stage('Docker Run') {
+            steps {
+                dir('Guru_99') {
+                    bat 'docker run testng-framework'
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            junit '**/target/surefire-reports/*.xml'
+            archiveArtifacts '**/target/*.jar'
+        }
+    }
+}
