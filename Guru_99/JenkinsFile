@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/codingwithdev28/Capastone-Project-Dev.git'
+                    url: 'https://github.com/codingwithdev28/Capastone-Project-Dev.git'
             }
         }
 
@@ -21,13 +21,15 @@ pipeline {
                 bat 'dir /s'
             }
         }
-	stage('Compile') {
+
+        stage('Compile') {
             steps {
-				dir('Guru_99'){
-                bat 'mvn compile'
+                dir('Guru_99') {
+                    bat 'mvn compile'
+                }
             }
         }
-        }
+
         stage('Build and Test') {
             steps {
                 dir('Guru_99') {
@@ -35,16 +37,14 @@ pipeline {
                 }
             }
         }
- 
+
         stage('Test') {
             steps {
-				dir('Guru_99'){
-                bat 'mvn test'
+                dir('Guru_99') {
+                    bat 'mvn test'
+                }
             }
         }
-        }
- 
-        
 
         stage('Package') {
             steps {
@@ -54,11 +54,13 @@ pipeline {
             }
         }
 
-       
+    }   // closes stages
+
     post {
         always {
             junit '**/target/surefire-reports/*.xml'
             archiveArtifacts '**/target/*.jar'
         }
     }
-}
+
+}   
