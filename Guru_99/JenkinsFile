@@ -54,22 +54,7 @@ pipeline {
             }
         }
 
-        stage('Docker Build') {
-            steps {
-                dir('Guru_99') {
-                    bat 'docker build -t testng-framework .'
-                }
-            }
-        }
-stage('Docker Run') {
-            steps {
-                dir('Guru_99') {
-                    bat 'docker run testng-framework'
-                }
-            }
-        }
-    }
-
+       
     post {
         always {
             junit '**/target/surefire-reports/*.xml'
